@@ -264,11 +264,6 @@ h2 {
     margin: 0 auto;
 }
 
-
-.team-single img:hover {
-    transform: scale(1.05);
-}
-
 .team-single h3 {
     font-size: 28px;
     margin-top: 20px;
