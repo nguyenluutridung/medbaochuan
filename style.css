@@ -296,6 +296,76 @@ h2 {
         width: 100%;
     }
 }
+/* === CONTACT PAGE (KHÔNG ẢNH HƯỞNG PHẦN KHÁC) === */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    font-family: Arial, sans-serif;
+}
+
+/* Bên trái */
+.left-contact {
+    width: 40%;
+}
+
+.left-contact h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
+    background: #3056ff;
+    margin-bottom: 25px;
+}
+
+.info {
+    font-size: 20px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.right-contact {
+    width: 100%;
+    position: relative;
+}
+
+.single-phone {
+    width: 320px;
+    position: relative;
+    z-index: 5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-contact, .right-contact {
+        width: 100%;
+    }
+
+    .right-contact {
+        margin-top: 60px;
+    }
+
+    .single-phone {
+        margin: auto;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .menu {
@@ -308,4 +378,16 @@ h2 {
         width: 100%;
         box-sizing: border-box;
     }
+}
+/* ảnh trong contact */
+.contact-container .right-contact .single-phone {
+    width: 1200px;           /* tăng kích thước ảnh */
+    float: right;           /* đẩy sang phải */
+    margin-left: 40px;      /* cách chữ */
+}
+/* căn giữa toàn bộ phần contact */
+.contact-container {
+    max-width: 1100px;   /* thu hẹp để nội dung vào giữa */
+    margin: 0 auto;      /* căn giữa toàn bộ khối */
+    padding: 40px 0;
 }
