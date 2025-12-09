@@ -296,7 +296,6 @@ h2 {
         width: 100%;
     }
 }
-/* === CONTACT PAGE (KHÔNG ẢNH HƯỞNG PHẦN KHÁC) === */
 
 .contact-container {
     display: flex;
@@ -381,13 +380,12 @@ h2 {
 }
 /* ảnh trong contact */
 .contact-container .right-contact .single-phone {
-    width: 1200px;           /* tăng kích thước ảnh */
-    float: right;           /* đẩy sang phải */
-    margin-left: 40px;      /* cách chữ */
+    width: 1200px;
+    float: right;         
+    margin-left: 40px;     
 }
-/* căn giữa toàn bộ phần contact */
 .contact-container {
-    max-width: 1100px;   /* thu hẹp để nội dung vào giữa */
-    margin: 0 auto;      /* căn giữa toàn bộ khối */
+    max-width: 1100px; 
+    margin: 0 auto;    
     padding: 40px 0;
 }
