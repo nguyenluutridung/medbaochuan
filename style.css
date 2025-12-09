@@ -114,7 +114,7 @@ nav {
 .image-row {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .image-row img {
@@ -250,24 +250,29 @@ h2 {
 }
 
 .team-single {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-top: 40px;
 }
+
 
 .team-single img {
     width: 100vw;             
     max-width: 100vw;
     height: auto;
-    border-radius: 0;          /* nếu muốn vẫn bo góc thì tớ thêm lại */
+    border-radius: 0;   
     display: block;
     margin: 0 auto;
+    
 }
 
 .team-single h3 {
     font-size: 28px;
     margin-top: 20px;
     color: #0033cc;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .team-single p {
